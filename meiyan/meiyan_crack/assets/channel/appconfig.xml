@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<!-- 公测包标识 -->    
+    <bool name="is_beta">false</bool>
+    <!-- 当前程序的渠道id -->
+    <string name="channel_id">baidu</string>
+	<!-- 给力推荐广告组id，个别渠道不同 -->
+    <string name="app_recommend_gourp_id">S63628</string>
+    <!-- 标记是否需要给力推荐 -->
+    <bool name="is_needed_app_recommend">true</bool>
+	<!-- 标记是否需要检查更新 -->    
+    <bool name="is_needed_check_update">true</bool>
+    <!-- 是否需要首页广告  -->
+    <bool name="is_needed_homepage_ad">true</bool>
+    <!-- 是否为提供给测试人员的包 -->
+    <bool name="is_for_tester">false</bool>
+	<!-- 标记是否需要检查系统通知 -->    
+    <bool name="is_needed_check_notification">true</bool>
+			<!-- 广告第二频道 -->
+    <bool name="is_needed_homepage_ad_second_channel">true</bool>
+	<!-- 保存页广告 -->
+    <bool name="is_needed_saveshare_ad">true</bool>
+	<!-- 启动页广告 -->
+    <bool name="is_needed_startup_ad">true</bool>
+	<!-- 360更新 -->
+    <bool name="is_need_update_with_360">false</bool>
+    <!-- 口袋购物推荐 -->
+    <bool name="is_need_kdgw_recommend">false</bool>
+    <!-- 是否展示相册广告 -->
+    <bool name="is_need_album_ad">true</bool>
+</resources>

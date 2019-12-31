@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+			<!-- 女-->
+			<!-- 眼线 -->
+			<dict>
+				<key>FilterType</key>
+				<integer>4</integer>
+				<key>LocateMethod</key>
+				<integer>6</integer>
+				<key>MUType</key>
+				<integer>3</integer>
+				<key>ORGBA</key>
+				<string>70,0,0,0,255</string>
+				<key>Operation</key>
+				<integer>10</integer>
+				<key>Path</key>
+				<string>EyeLiner/813_yzz.png</string>
+				<key>Rectangle</key>
+				<string>191,442,334,218</string>
+				<key>Type</key>
+				<string>S</string>
+				<key>MakeupCustomName</key>
+				<string>MUFACE_EYELINER</string>
+				<key>Gender</key>
+				<string>F</string>
+			</dict>
+			<dict>
+				<key>FilterType</key>
+				<integer>4</integer>
+				<key>LocateMethod</key>
+				<integer>7</integer>
+				<key>MUType</key>
+				<integer>3</integer>
+				<key>ORGBA</key>
+				<string>70,0,0,0,255</string>
+				<key>Operation</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>EyeLiner/813_yzy.png</string>
+				<key>Rectangle</key>
+				<string>505,437,298,217</string>
+				<key>Type</key>
+				<string>S</string>
+				<key>MakeupCustomName</key>
+				<string>MUFACE_EYELINER</string>
+				<key>Gender</key>
+				<string>F</string>
+			</dict>
+			<!-- 男-->
+			<!-- 眼线 -->
+			<dict>
+				<key>FilterType</key>
+				<integer>4</integer>
+				<key>LocateMethod</key>
+				<integer>6</integer>
+				<key>MUType</key>
+				<integer>3</integer>
+				<key>ORGBA</key>
+				<string>20,0,0,0,255</string>
+				<key>Operation</key>
+				<integer>10</integer>
+				<key>Path</key>
+				<string>EyeLiner/813_yzz.png</string>
+				<key>Rectangle</key>
+				<string>191,442,334,218</string>
+				<key>Type</key>
+				<string>S</string>
+				<key>MakeupCustomName</key>
+				<string>MUFACE_EYELINER</string>
+				<key>Gender</key>
+				<string>M</string>
+			</dict>
+			<dict>
+				<key>FilterType</key>
+				<integer>4</integer>
+				<key>LocateMethod</key>
+				<integer>7</integer>
+				<key>MUType</key>
+				<integer>3</integer>
+				<key>ORGBA</key>
+				<string>20,0,0,0,255</string>
+				<key>Operation</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>EyeLiner/813_yzy.png</string>
+				<key>Rectangle</key>
+				<string>505,437,298,217</string>
+				<key>Type</key>
+				<string>S</string>
+				<key>MakeupCustomName</key>
+				<string>MUFACE_EYELINER</string>
+				<key>Gender</key>
+				<string>M</string>
+			</dict>
+		</array>
+		<key>ID</key>
+		<integer>200004</integer>
+		<key>Name</key>
+		<string>Unknown</string>
+	</dict>
+</array>
+</plist>

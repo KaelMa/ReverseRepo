@@ -1,0 +1,27 @@
+.class public interface abstract Lcom/meitu/myxj/setting/util/a$b;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/meitu/myxj/setting/util/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "b"
+.end annotation
+
+
+# virtual methods
+.method public abstract onDeviceHelpClick(Landroid/view/View;)V
+.end method
+
+.method public abstract onQuictClick(Landroid/view/View;)V
+.end method
+
+.method public abstract onReScanDevice(Landroid/view/View;)V
+.end method
+
+.method public abstract onReSetting(Landroid/view/View;)V
+.end method

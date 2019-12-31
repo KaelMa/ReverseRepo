@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShareInfo>
+
+   	<!-- ID,Name,AppKey这几个属性是必须的 -->
+    <!-- ID暂未使用 -->
+    <!-- Name就是你所需要的平台配置类的类名 -->
+    <!-- Appkey是每个平台所给予的唯一标识,AppKey使用DES加密。切记 -->
+    
+    <!-- 混淆时需添加如下配置
+    	# No Proguard Platform Config File
+		-keep public class * extends com.meitu.libmtsns.framwork.i.PlatformConfig {*;}
+		# No Proguard Platform Constructor
+		-keepclasseswithmembers public class * extends com.meitu.libmtsns.framwork.i.Platform {
+		    public <init>(android.app.Activity);
+		}
+
+	    # No Proguard Weixin Class
+
+		-keep class com.tencent.mm.sdk.openapi.WXMediaMessage {*;}
+		-keep class com.tencent.mm.sdk.openapi.** implements com.tencent.mm.sdk.openapi.WXMediaMessage$IMediaObject {*;}
+
+		# No Proguard Twitter Class
+	    -keep class twitter4j.** { *; }
+
+	    # No Proguard Facebook Class
+        -keep class com.meitu.libmtsns.Facebook.** { *; }
+
+     -->
+
+	<!-- 腾讯配置使用说明 
+		<参数说明>
+		UserInterval用于设置更新用户信息的时间间隔，以秒为单位。最小的时间间隔设定为10S
+		AlbumInterval用于设置更新账户信息的时间间隔，以秒为单位。最小的时间间隔设定为10S
+		需要在调用的Activity回调ShareManager.ssoAuthorizeCallback()
+		<AndroidManifest.xml需有如下配置 >
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent[你的APPID]" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+         当需要上传头像需要添加此配置，否则无需添加
+        <activity android:name="com.tencent.connect.avatar.ImageActivity" />
+        混淆的，在progrud上添加  -keep class com.tencent.** {*;}
+	-->
+    <Tencent
+        Id="1000"
+        Name="PlatformTencentConfig"
+        AppKey="11011000001011010110101001001101000000101010101111110000101101111101110100111101101100000100101101010110010000100100111010111000"
+        UserInterval="3600"
+        AlbumInterval="3600" />
+
+    <!-- 新浪微博配置使用说明
+        <参数说明>
+        UserInterval用于设置更新用户信息的时间间隔，最小的时间间隔设定为10S
+        RediretUrl 回调页
+        需要在调用的Activity回调ShareManager.ssoAuthorizeCallback()
+        Scope="email,direct_messages_read,direct_messages_write,friendships_groups_read,friendships_groups_write,statuses_to_me_read,invitation_write,follow_app_official_microblog"
+     -->
+     <!-- 00001101011110110000111000101111011111011101111000111001100011111000010100011111011110000011011010111010011001001011100000111101 -->
+     <!-- 11101011010000100001100010010110000001100001110011110000101100110011101000100001110010111001111001001000101111010100100101110011 -->
+    <SinaWeibo
+        Id="2000"
+        Name="PlatformSinaWeiboConfig"
+        AppKey="00001101011110110000111000101111011111011101111000111001100011111000010100011111011110000011011010111010011001001011100000111101"
+        RediretUrl="http://dingshi.meitu.com/weibo/callback.php"
+        UserInterval="3600"
+        Scope="email,direct_messages_read,direct_messages_write,friendships_groups_read,friendships_groups_write,statuses_to_me_read,invitation_write,follow_app_official_microblog"/>
+
+    <!-- 微信配置使用说明 
+		<参数说明>
+        ThumbnailSize 压缩的缩略图大小
+        AppSecret  只有需要Oauth授权获取AccessToken才用到，不然不需要
+        <注意，微信平台接收回调消息使用广播机制，只要有调用到微信分享功能的地方，
+        	都需要在Activity结束的时候调用logout方法。
+        	ShareManager.getPlatform(getActivity(), PlatformWeixin.class).logout();>
+        <注意，如果需要回调成功状态，需要在你的包名相应目录下新建一个wxapi目录，
+        	并在该wxapi目录下新增一个WXEntryActivity类，该类继承自WXBaseEntryActivity。
+        	如果平台有需要按钮统计，可在建好的WXEntryActivity类中统计>
+        <AndroidManifest.xml需有如下配置 >
+        <activity
+            android:name="<你的包名>.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoDisplay" >
+        </activity>
+     -->
+    <Weixin
+        Id="3000"
+        Name="PlatformWeixinConfig"
+        AppKey="100101110101100110101011100111000010111100000001110111000001111010001111011110110000010101101001111000100100110000100110011010100000001000101110100000001110100110010011101110110100011111011100"
+        AppSecret="1011101111100110001110001100001110010011011100111111001100101110001001110011111011010001101101100010000110100011110010010101010100001110000001000111010011001001110100101011101001111111001110010101011001010101111000000111111010000111101011100111100110110000"
+        ThumbnailSize="150" />
+
+    <!-- Facebook配置使用说明, Facebook如果用客户端的话，需要签过名才能登录成功，如果是跳转web版本的则没关系
+          <参数说明>
+          UserInterval 这个参数可选，如果需要用户Facebook的信息，则设置这个用于如果超过这过这个时间，
+          Scope 这个参数可选，如果需要额外的权限话
+          则需要重新获取用户信息
+          需要在调用的Activity回调ShareManager.ssoAuthorizeCallback()
+          <AndroidManifest.xml需有如下配置 >
+           <activity
+               android:name="com.meitu.libmtsns.Facebook.base.LoginActivity"
+               android:label="@strSing/app_name"
+               android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+       -->
+   <Facebook
+       Id="4000"
+       Name="PlatformFacebookConfig"
+       AppKey="10011010010011001110001101001011000010100010001111000100011001010101100111010000111110101011011100111111011101010110001001011000"
+        />
+   <!-- Scope="publish_actions" -->
+    <!-- Twitter配置使用说明
+         <参数说明>
+          UserInterval 这个参数可选，如果需要用户Twitter的信息，则设置这个用于如果超过这过这个时间，
+          则需要重新获取用户信息
+          <AndroidManifest.xml需有如下配置 >
+           <activity
+			android:name="com.meitu.libmtsns.Twitter.base.TwitterLoginActivity"
+			android:configChanges="screenSize"
+			android:screenOrientation="portrait"
+			android:noHistory="true"
+			android:theme="@style/sns_webview"
+			android:windowSoftInputMode="adjustResize">
+		</activity>
+    -->
+    <!-- <Twitter
+        Id="2000"
+        Name="PlatformTwitterConfig"
+        AppKey="1000100100101100001010001000001011001010110000111100101101011101011000010010000010001011000110100000000010110110010000111000001101111000001100101010010101011011001100101011001001111000101110011001000111000000110101010100001100010101000100001010111100111101"
+        AppSecret="0100100110111001010110110100111010000111111001110000110010000000101001100000001000001010100011111111101001001110011101100111101001111011101100110011010111010111111000011010100000101100010111011000111011000110111111010100101011100001011001000011100011000001000111011110001011001011101001000111110011011101110111001101000100100111011101010110111100111011000000101100001001110110111110101111011010100111010101100110101001101011000010100100000000111111"
+        RediretUrl="oauth://meituxiuxiu"
+        /> -->
+    <!-- 百度云配置使用说明
+         <参数说明>
+          RootPath 上传图片到百度网盘所在的目录 <注意最后不需要再加/了，不要这样"/美图秀秀/">
+          UpLoadFileNamePrefix 上传到百度网盘的图片名称前缀 如秀秀前缀是MTXX, 文件名就是MTXX_yyyyMMddHHmmss，默认是MTXX
+     -->
+    <!-- <Baidu
+        Id="2000"
+        Name="PlatformBaiduConfig"
+        AppKey="011001110101011101001110101000010111101101101001001111100111000010100000010100111110101011010010110011000000110111011101100011011101111010100010110011101110100001010100111010001101011111010100"
+        RootPath="/美图秀秀"
+        UpLoadFileNamePrefix="MTXX"/> -->
+
+    <!-- 人人配置使用说明
+        <参数说明>
+    -->
+    <!-- <Renren
+        Id="8000"
+        Name="PlatformRenrenConfig"
+        AppKey="0101101111001001111101110001001000111010010111001111001001101000011001100100011101100101111110000101100110001001011000000011011001000111111101101111111101010001101000010111101000110110010111010110001000010000100001010011000010100010011101011011011000001111"
+        AppSecret="0110001000100011100011101011110010110000001010101000001110101000110010000010010010110011100000110000100101110101001100111001000011000111000010100101000001110101110000110110011100100110100000010011001110110101110000001111101000001011001010110110000101011111"
+        RediretUrl="http://graph.renren.com/oauth/login_success.html"
+        UserInterval="3600"/> -->
+
+    <Instagram />
+    <Line />
+</ShareInfo>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>1001</integer>
+	<key>FilterPart</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>AnattaBeauty</string>
+			<key>FaceColor_face</key>
+			<string>1</string>
+			<key>FaceColorSwitch</key>
+			<string>0</string>
+			<key>FaceColorAlpha</key>
+			<string>0.8</string>
+			<key>FaceColor_levelRangeInv</key>
+			<string>1.026570</string>
+			<key>FaceColor_levelBlack</key>
+			<string>0.025882</string>
+			<key>BlurSwitch</key>
+			<string>1</string>
+			<key>BlurAlpha</key>
+			<string>0.5</string>
+			<key>SharpenSwitch</key>
+			<string>1</string>
+			<key>SharpenAlpha</key>
+			<string>0.5</string>
+			<key>ClaritySwitch</key>
+			<string>0</string>
+			<key>ClarityAlpha</key>
+			<string>1</string>
+			<key>refMapSwitch</key>
+			<string>1</string>
+			<key>brightAlpha</key>
+			<string>0.7</string>
+
+
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Mapy</string>
+			<key>Alpha</key>
+			<string>1.0</string>
+			<key>LutPath</key>
+			<string>1280_back.png</string>
+			<key>VSPath</key>
+			<string></string>
+		
+		</dict>
+	</array>
+</dict>
+</plist>

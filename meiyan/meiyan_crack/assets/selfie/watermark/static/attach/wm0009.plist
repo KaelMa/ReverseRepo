@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>Params</key>
+    <array>
+        <dict>
+                    <key>TextRectLeft</key><!-- 文字的左，上，右，下边距 -->
+                    <integer>22</integer>
+                    <key>TextRectTop</key>
+                    <integer>20</integer>
+                    <key>TextRectRight</key>
+                    <integer>380</integer>
+                    <key>TextRectBottom</key>
+                    <integer>56</integer>
+                    <key>AlignType</key><!--0图片为基准，1图片对齐文字x轴中间-->
+                    <integer>0</integer>
+                    <key>TextAlignType</key><!--0,1,2 文字左，中，右对齐 -->
+                    <integer>0</integer>
+                    <key>TextFontSize</key>
+                    <integer>35</integer>
+                    <key>TextColor</key>
+                    <string>#ffffffff</string>
+                    <key>TextBold</key> <!-- 0正常字体，1粗体 -->
+                    <integer>0</integer>
+                    <key>ImageName</key><!-- 使用的图片切图 -->
+                    <string>wm0009.png</string>
+                    <key>TtrName</key><!-- 自定义字体名称 -->
+                    <string></string>
+                    <key>ShaderColor</key><!-- 阴影颜色 -->
+                    <string>#12000000</string>
+                    <key>ShaderRadius</key>
+                    <integer>6</integer>
+                    <key>ShaderX</key>
+                    <integer>0</integer>
+                    <key>ShaderY</key>
+                    <integer>0</integer>
+                    <key>TextStrokeColor</key><!-- 描边颜色 -->
+                    <string>#20000000</string>
+                    <key>TextStrokeWidth</key>
+                    <integer>2</integer>
+        </dict>
+    </array>
+<key>Sprites</key>
+	<array>
+		<dict>
+			<key>SingleSize</key><!-- 视频添加水印读取的水印大小 -->
+			<string>{382,140}</string>
+		</dict>
+	</array>
+</dict>
+</plist>

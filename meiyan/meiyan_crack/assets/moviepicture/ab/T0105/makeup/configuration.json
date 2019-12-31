@@ -1,0 +1,6 @@
+{"ID":"0","FacePart":[{"ID":"005","Type":"Blusher","Alpha":35},{"ID":"001","Type":"EyeBrow","Alpha":20},
+{"ID":"0","Type":"EyeLash","Alpha":0},
+{"ID":"0","Type":"EyeLine","Alpha":0},
+{"ID":"002","Type":"EyePupil","Alpha":25},
+{"ID":"002","Type":"EyeShadow","Alpha":40},
+{"ID":"001","Type":"Mouth","Alpha":40}],"TotalAlpha":"100"}

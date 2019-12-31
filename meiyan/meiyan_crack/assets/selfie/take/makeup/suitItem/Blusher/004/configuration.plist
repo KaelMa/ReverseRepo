@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+			<dict>
+				<key>DefaultAlpha</key>
+				<integer>40</integer>
+				<key>FilterType</key>
+				<integer>3</integer>
+				<key>Gender</key>
+				<string>F</string>
+				<key>LocateMethod</key>
+				<integer>2</integer>
+				<key>MUType</key>
+				<integer>4</integer>
+				<key>MakeupCustomName</key>
+				<string>MUFACE_CHEEK</string>
+				<key>ORGBA</key>
+				<string>40,255,71,87,255;</string>
+				<key>Operation</key>
+				<integer>0</integer>
+				<key>Path</key>
+				<string>Blusher/g_sh1.png</string>
+				<key>Rectangle</key>
+				<string>97,492,825,354</string>
+				<key>Type</key>
+				<string>S</string>
+			</dict>
+			<dict>
+				<key>DefaultAlpha</key>
+				<integer>40</integer>
+				<key>FilterType</key>
+				<integer>3</integer>
+				<key>Gender</key>
+				<string>M</string>
+				<key>LocateMethod</key>
+				<integer>2</integer>
+				<key>MUType</key>
+				<integer>4</integer>
+				<key>MakeupCustomName</key>
+				<string>MUFACE_CHEEK</string>
+				<key>ORGBA</key>
+				<string>20,255,71,87,255;</string>
+				<key>Operation</key>
+				<integer>0</integer>
+				<key>Path</key>
+				<string>Blusher/g_sh1.png</string>
+				<key>Rectangle</key>
+				<string>97,492,825,354</string>
+				<key>Type</key>
+				<string>S</string>
+			</dict>
+		</array>
+		<key>ID</key>
+		<integer>200004</integer>
+		<key>Name</key>
+		<string>Unknown</string>
+	</dict>
+</array>
+</plist>

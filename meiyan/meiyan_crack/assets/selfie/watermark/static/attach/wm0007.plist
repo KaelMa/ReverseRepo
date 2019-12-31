@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>Params</key>
+    <array>
+        <dict>
+                    <key>TextRectLeft</key>
+                    <integer>40</integer>
+                    <key>TextRectTop</key>
+                    <integer>65</integer>
+                    <key>TextRectRight</key>
+                    <integer>382</integer>
+                    <key>TextRectBottom</key>
+                    <integer>102</integer>
+                    <key>AlignType</key>
+                    <integer>0</integer>
+                    <key>TextAlignType</key>
+                    <integer>0</integer>
+                    <key>TextFontSize</key>
+                    <integer>37</integer>
+                    <key>TextColor</key>
+                    <string>#e6ff8c30</string>
+                    <key>TextBold</key>
+                    <integer>0</integer>
+                    <key>ImageName</key>
+                    <string>wm0007.png</string>
+                    <key>TtrName</key>
+                    <string>icomoon.ttf</string>
+                    <key>ShaderColor</key>
+                    <string>#ffffffff</string>
+                    <key>ShaderRadius</key>
+                    <integer>0</integer>
+                    <key>ShaderX</key>
+                    <integer>0</integer>
+                    <key>ShaderY</key>
+                    <integer>0</integer>
+        </dict>
+    </array>
+<key>Sprites</key>
+	<array>
+		<dict>
+			<key>SingleSize</key>
+			<string>{382,140}</string>
+		</dict>
+	</array>
+</dict>
+</plist>

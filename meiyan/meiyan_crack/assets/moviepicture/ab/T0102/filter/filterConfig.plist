@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FilterPart</key>
+	<array>
+		<dict>
+			<key>MaterialFile</key>
+			<string>1111光斑.png</string>
+			<key>Type</key>
+			<string>Defocus</string>
+			<key>gamma</key>
+			<integer>6</integer>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>OldOnlineFilter</string>
+			<key>Path</key>
+			<string>subFilterConfig.plist</string>
+		</dict>
+	</array>
+</dict>
+</plist>

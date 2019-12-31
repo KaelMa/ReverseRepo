@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+			<!-- 女-->
+			<!-- 眼影 -->
+			<dict>
+				<key>FilterType</key>
+				<integer>4</integer>
+				<key>LocateMethod</key>
+				<integer>6</integer>
+				<key>MUType</key>
+				<integer>3</integer>
+				<key>ORGBA</key>
+				<string>80,0,0,0,255</string>
+				<key>Operation</key>
+				<integer>10</integer>
+				<key>Path</key>
+				<string>EyeShadow/800_yzz.png</string>
+				<key>Rectangle</key>
+				<string>149,402,354,242</string>
+				<key>Type</key>
+				<string>S</string>
+				<key>MakeupCustomName</key>
+				<string>MUFACE_EYESHADOW</string>
+				<key>Gender</key>
+				<string>F</string>
+			</dict>
+			<dict>
+				<key>FilterType</key>
+				<integer>4</integer>
+				<key>LocateMethod</key>
+				<integer>7</integer>
+				<key>MUType</key>
+				<integer>3</integer>
+				<key>ORGBA</key>
+				<string>80,0,0,0,255</string>
+				<key>Operation</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>EyeShadow/800_yzy.png</string>
+				<key>Rectangle</key>
+				<string>510,402,337,235</string>
+				<key>Type</key>
+				<string>S</string>
+				<key>MakeupCustomName</key>
+				<string>MUFACE_EYESHADOW</string>
+				<key>Gender</key>
+				<string>F</string>
+			</dict>
+			<!-- 男-->
+			<!-- 眼影 -->
+			<dict>
+				<key>FilterType</key>
+				<integer>4</integer>
+				<key>LocateMethod</key>
+				<integer>6</integer>
+				<key>MUType</key>
+				<integer>3</integer>
+				<key>ORGBA</key>
+				<string>30,0,0,0,255</string>
+				<key>Operation</key>
+				<integer>10</integer>
+				<key>Path</key>
+				<string>EyeShadow/800_yzz.png</string>
+				<key>Rectangle</key>
+				<string>149,402,354,242</string>
+				<key>Type</key>
+				<string>S</string>
+				<key>MakeupCustomName</key>
+				<string>MUFACE_EYESHADOW</string>
+				<key>Gender</key>
+				<string>M</string>
+			</dict>
+			<dict>
+				<key>FilterType</key>
+				<integer>4</integer>
+				<key>LocateMethod</key>
+				<integer>7</integer>
+				<key>MUType</key>
+				<integer>3</integer>
+				<key>ORGBA</key>
+				<string>30,0,0,0,255</string>
+				<key>Operation</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>EyeShadow/800_yzy.png</string>
+				<key>Rectangle</key>
+				<string>510,402,337,235</string>
+				<key>Type</key>
+				<string>S</string>
+				<key>MakeupCustomName</key>
+				<string>MUFACE_EYESHADOW</string>
+				<key>Gender</key>
+				<string>M</string>
+			</dict>
+		</array>
+		<key>ID</key>
+		<integer>200004</integer>
+		<key>Name</key>
+		<string>Unknown</string>
+	</dict>
+</array>
+</plist>

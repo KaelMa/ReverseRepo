@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FilterPart</key>
+	<array>
+		<dict>
+			<key>BlurAlpha</key>
+			<string>0.631399</string>
+			<key>BlurSwitch</key>
+			<string>1</string>
+			<key>ClarityAlpha</key>
+			<string>1.000000</string>
+			<key>ClaritySwitch</key>
+			<string>0</string>
+			<key>FaceColorAlpha</key>
+			<string>0.699313</string>
+			<key>FaceColorAlphaAll</key>
+			<string>0.635739</string>
+			<key>FaceColorSwitch</key>
+			<string>1</string>
+			<key>FaceColor_brightAlpha</key>
+			<string>0.835052</string>
+			<key>FaceColor_face</key>
+			<string>0</string>
+			<key>FaceColor_levelBlack</key>
+			<string>0.004296</string>
+			<key>FaceColor_levelRangeInv</key>
+			<string>1.065636</string>
+			<key>SharpenAlpha</key>
+			<string>0.549488</string>
+			<key>SharpenAlpha_Better6S</key>
+			<string>0.700000</string>
+			<key>SharpenAlpha_LessAnd6S</key>
+			<string>0.549488</string>
+			<key>SharpenSwitch</key>
+			<string>1</string>
+			<key>Type</key>
+			<string>AnattaBeauty</string>
+			<key>refMapSwitch</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Alpha</key>
+			<string>1.0</string>
+			<key>FSPath</key>
+			<string></string>
+			<key>LutPath</key>
+			<string>1286_front.png</string>
+			<key>Type</key>
+			<string>Mapy</string>
+			<key>VSPath</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>ID</key>
+	<integer>1001</integer>
+</dict>
+</plist>

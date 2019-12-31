@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Texts</key>
+	<array>
+		<dict>
+			<key>Center</key>
+			<string>{0,0}</string>
+			<key>Index</key>
+			<integer>1</integer>
+			<key>FrameRate</key>
+			<integer>20</integer>
+			<key>Actions</key>
+			<array>
+				<dict>
+					<key>AnchorPoint</key>
+					<string>{0.5,0.5}</string>
+					<key>KeyValues</key>
+					<string>{0.0,0.0};{1.3,1.3};{1.0,1.0}</string>
+					<key>KeyTimes</key>
+					<string>0;4;12</string>
+					<key>EasingFuncations</key>
+					<string>3;3</string>
+					<key>Action</key>
+					<string>MTCVTextActionScale</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Sprites</key>
+	<array>
+		<dict>
+			<key>Center</key>
+			<string>{0,0}</string>
+			<key>Index</key>
+			<integer>0</integer>
+			<key>Actions</key>
+			<array/>
+			<key>SingleSize</key>
+			<string>{260,190}</string>
+			<key>Row</key>
+			<integer>1</integer>
+			<key>Col</key>
+			<integer>1</integer>
+			<key>Total</key>
+			<integer>1</integer>
+			<key>ImageName</key>
+			<string>watermark_en.png</string>
+			<key>FrameRate</key>
+			<integer>24</integer>
+			<key>ActualSize</key>
+			<string>{260,190}</string>
+			<key>Loop</key>
+			<string>1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

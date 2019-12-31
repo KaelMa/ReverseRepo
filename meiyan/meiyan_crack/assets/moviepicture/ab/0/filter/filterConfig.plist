@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FilterPart</key>
+	<array>
+		<dict>
+			<key>MaterialFile</key>
+			<string>1109.png</string>
+			<key>StepSize</key>
+			<string>0.200000</string>
+			<key>Type</key>
+			<string>Defocus</string>
+			<key>gamma</key>
+			<integer>6</integer>
+			<key>typeID</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

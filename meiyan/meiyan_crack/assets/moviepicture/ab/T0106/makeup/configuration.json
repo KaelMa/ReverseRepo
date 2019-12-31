@@ -1,0 +1,41 @@
+{
+  "ID": "0",
+  "FacePart": [
+    {
+      "ID": "004",
+      "Type": "Blusher",
+      "Alpha": 35
+    },
+    {
+      "ID": "008",
+      "Type": "EyeBrow",
+      "Alpha": 20
+    },
+    {
+      "ID": "0",
+      "Type": "EyeLash",
+      "Alpha": 0
+    },
+    {
+      "ID": "0",
+      "Type": "EyeLine",
+      "Alpha": 0
+    },
+    {
+      "ID": "010",
+      "Type": "EyePupil",
+      "Alpha": 20
+    },
+    {
+      "ID": "006",
+      "Type": "EyeShadow",
+      "Alpha": 35
+    },
+    {
+      "ID": "005",
+      "Type": "Mouth",
+      "Alpha": 40
+    }
+  ],
+  "TotalAlpha": "100"
+}

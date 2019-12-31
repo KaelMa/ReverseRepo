@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+			<dict>
+				<key>GlossAlpha</key>
+				<integer>100</integer>
+				<key>LightAlpha</key>
+				<integer>100</integer>
+				<key>LightColorRGBA</key>
+				<string>143,218,251,255</string>
+				<key>LipstickMode</key>
+				<integer>1</integer>
+				<key>ORGBA</key>
+				<string>70,190,54,74,255</string>
+				<key>Type</key>
+				<string>MPLIPSTICK</string>
+				<key>MakeupCustomName</key>
+				<string>MUFACE_MOUTH</string>
+				<key>Gender</key>
+				<string>F</string>
+			</dict>
+			<dict>
+				<key>GlossAlpha</key>
+				<integer>100</integer>
+				<key>LightAlpha</key>
+				<integer>100</integer>
+				<key>LightColorRGBA</key>
+				<string>143,218,251,255</string>
+				<key>LipstickMode</key>
+				<integer>1</integer>
+				<key>ORGBA</key>
+				<string>23,190,54,74,255</string>
+				<key>Type</key>
+				<string>MPLIPSTICK</string>
+				<key>MakeupCustomName</key>
+				<string>MUFACE_MOUTH</string>
+				<key>Gender</key>
+				<string>M</string>
+			</dict>
+		</array>
+		<key>ID</key>
+		<integer>200004</integer>
+		<key>Name</key>
+		<string>Unknown</string>
+	</dict>
+</array>
+</plist>

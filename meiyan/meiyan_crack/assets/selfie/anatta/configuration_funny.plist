@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>1001</integer>
+	<key>FilterPart</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>AnattaBeauty</string>
+			<key>FaceColorSwitch</key>
+			<string>1</string>
+			<key>FaceColorAlpha</key>
+			<string>0.7</string>
+			<key>FaceColor_levelRangeInv</key>
+			<string>1.026570</string>
+			<key>FaceColor_levelBlack</key>
+			<real>0.025882</real>
+			<key>BlurSwitch</key>
+			<string>1</string>
+			<key>BlurAlpha</key>
+			<real>0.59</real>
+			<key>SharpenSwitch</key>
+			<string>0</string>
+			<key>SharpenAlpha</key>
+			<real>0.5</real>
+			<key>ClaritySwitch</key>
+			<string>1</string>
+			<key>ClarityAlpha</key>
+			<integer>0.2</integer>
+			<key>FaceColor_refMapSwitch</key>
+			<string>1</string>
+			<key>FaceColor_refCurveSwitch</key>
+			<string>1</string>
+			<key>brightAlpha</key>
+			<string>0.7</string>
+			<key>FaceColor_lookUpGrayPath</key>
+			<string>Anatta/lookup_table_gray_funny.png</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>DarkCorner</string>
+			<key>Path</key>
+			<string>A13.jpg</string>
+			<key>Alpha</key>
+			<real>0.8</real>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>BlurAlong</string>
+			<key>Alpha</key>
+			<string>0.8</string>
+		</dict>
+	</array>
+</dict>
+</plist>

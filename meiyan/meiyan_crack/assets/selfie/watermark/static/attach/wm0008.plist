@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>Params</key>
+    <array>
+        <dict>
+                    <key>TextRectLeft</key>
+                    <integer>24</integer>
+                    <key>TextRectTop</key>
+                    <integer>42</integer>
+                    <key>TextRectRight</key>
+                    <integer>290</integer>
+                    <key>TextRectBottom</key>
+                    <integer>58</integer>
+                    <key>AlignType</key>
+                    <integer>1</integer>
+                    <key>TextAlignType</key>
+                    <integer>0</integer>
+                    <key>TextFontSize</key>
+                    <integer>37</integer>
+                    <key>TextColor</key>
+                    <string>#ffffffff</string>
+                    <key>TextBold</key>
+                    <integer>0</integer>
+                    <key>ImageName</key>
+                    <string>wm0008.png</string>
+                    <key>TtrName</key>
+                    <string></string>
+                    <key>ShaderColor</key>
+                    <string>#12000000</string>
+                    <key>ShaderRadius</key>
+                    <integer>6</integer>
+                    <key>ShaderX</key>
+                    <integer>0</integer>
+                    <key>ShaderY</key>
+                    <integer>0</integer>
+                    <key>TextStrokeColor</key>
+                    <string>#20000000</string>
+                    <key>TextStrokeWidth</key>
+                    <integer>2</integer>
+        </dict>
+    </array>
+<key>Sprites</key>
+	<array>
+		<dict>
+			<key>SingleSize</key>
+			<string>{382,140}</string>
+		</dict>
+	</array>
+</dict>
+</plist>

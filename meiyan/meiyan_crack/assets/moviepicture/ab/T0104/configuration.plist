@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AR</key>
+	<string>ar</string>
+	<key>Filter</key>
+	<string>filter</string>
+	<key>FilterAlpha</key>
+	<integer>80</integer>
+	<key>Makeup</key>
+	<string>makeup</string>
+        <key>HighLightAlpha</key>
+	<integer>20</integer>
+	<key>AR_Filter_RenderOrder</key>
+	<integer>1</integer>
+	<key>BlurValue</key>
+	<integer>0</integer>
+</dict>
+</plist>

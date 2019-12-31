@@ -1,0 +1,2 @@
+使用说明：
+输入图片路径为：/sdcard/test/test.jpg

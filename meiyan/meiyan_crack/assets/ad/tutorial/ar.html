@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta content="" name="twitter:image">
+    <meta content="" property="og:title">
+    <meta content="" property="og:description">
+    <title></title>
+    <style>
+        * { padding: 0; margin: 0;}
+        body {font: normal .45rem/1.5 helvetica neue,hiragino sans gb,Microsoft YaHei,arial,tahoma,sans-serif; background-color: #fff;}
+        body, html { height: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+        .container { background: url('./images/ar.jpg') 0 0 no-repeat; width: 16rem; height: 32.768rem; background-size: 100%; }
+        .btn { -webkit-touch-callout: none; position: absolute; width: 6.506667rem; height: 1.898667rem; background: url(./images/btn.png) 0 0 no-repeat; background-size: 100%; left: 4.714667rem; top: 23.20rem; }
+        .anima {
+            -webkit-animation: anima 0.4s infinite;
+            animation: anima 0.4s infinite;
+        }
+        .zone-tw .container { background: url('./images/ar_tw.jpg') 0 0 no-repeat; background-size: 100%; }
+        .zone-tw .btn { background: url('./images/btn_tw.png') 0 0 no-repeat; background-size: 100%; width: 5.973333rem; height: 1.92rem; left: 5.162667rem; top: 22.869333rem; }
+        @-webkit-keyframes anima {
+            0%,49.9%{ 
+                -webkit-transform:translateY(0);
+                transform:translateY(0);
+            }
+            50%,100%{ 
+                -webkit-transform:translateY(6px); 
+                transform:translateY(6px); 
+            }
+        }
+        @keyframes anima {
+            0%,49.9%{ 
+                -webkit-transform:translateY(0);
+                transform:translateY(0);
+            }
+            50%,100%{ 
+                -webkit-transform:translateY(6px); 
+                transform:translateY(6px); 
+            }
+        }
+    </style>
+    <script>
+        ;(function(win,doc){
+            var docEl = doc.documentElement,
+                UA    = navigator.userAgent,
+                isMeitu = /meitu|meipai/gi.test(UA);
+            var refreshRem =function (){
+                var w =docEl.getBoundingClientRect().width || 320;
+                var fontSize = w/320 * 20;
+                fontSize = fontSize > 40 ? 40 : fontSize;
+                docEl.style.fontSize = fontSize+'px';
+                var finalFontSize = parseFloat(win.getComputedStyle(docEl).getPropertyValue("font-size"));
+                if(finalFontSize === fontSize || isMeitu) return;
+                fontSize = fontSize+(fontSize-finalFontSize);
+                docEl.style.fontSize = fontSize+'px';
+                win.fontSize = fontSize;
+            },refreshRemId;
+            win.addEventListener('resize', function() {
+                clearTimeout(refreshRemId);
+                refreshRemId = setTimeout(refreshRem, 100);
+            }, false);
+            win.addEventListener('pageshow', function(e) {
+                if (e.persisted) {
+                    clearTimeout(refreshRemId);
+                    refreshRemId = setTimeout(refreshRem, 100);
+                }
+            }, false);
+            refreshRem();
+        })(window,document);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <span class="btn anima" id="js-btn"></span>
+    </div>
+    <script>
+        var regExp = /(^|&)(lang=tw)($|&)/;
+        var isTW = regExp.test(window.location.search.slice(1));
+        // 台湾地区 - 繁体字
+        if (isTW) {
+            document.body.classList.add('zone-tw');
+        }
+
+        function send(url) {
+            var iframe = document.createElement('iframe');
+            iframe.src = url;
+            iframe.style.display = 'none';
+            setTimeout(function() {
+                document.body.appendChild(iframe);
+                setTimeout(function() {
+                    iframe.parentNode.removeChild(iframe);
+                }, 300)
+            }, 30)
+        }
+        document.getElementById('js-btn').onclick = function(e) {
+            e.preventDefault();
+            send('myxjpush://disney?materialID=AR002497');
+        }
+
+        document.getElementById('js-btn').oncontextmenu = function(e) {
+            e.preventDefault();
+        }
+    </script>
+</body>
+</html>

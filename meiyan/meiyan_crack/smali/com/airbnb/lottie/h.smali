@@ -1,0 +1,11 @@
+.class public interface abstract Lcom/airbnb/lottie/h;
+.super Ljava/lang/Object;
+
+
+# virtual methods
+.method public abstract a(Lcom/airbnb/lottie/e;)V
+    .param p1    # Lcom/airbnb/lottie/e;
+        .annotation build Landroid/support/annotation/Nullable;
+        .end annotation
+    .end param
+.end method

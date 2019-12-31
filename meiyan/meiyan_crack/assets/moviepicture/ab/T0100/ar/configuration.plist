@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Action</key>
+		<integer>0</integer>
+		<key>FacePart</key>
+		<array>
+			<dict>
+				<key>ControlPosition</key>
+				<string>1</string>
+				<key>FacemeshParameters</key>
+				<string>1.00,0.70;</string>
+				<key>FacemeshType</key>
+				<integer>2198</integer>
+				<key>LiftControlType</key>
+				<integer>0</integer>
+				<key>Type</key>
+				<string>Facelift</string>
+				<key>ValueRange</key>
+				<string>0.0,0.7</string>
+			</dict>
+		</array>
+		<key>ID</key>
+		<integer>3191</integer>
+		<key>Name</key>
+		<string>Unknown</string>
+		<key>Sound</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

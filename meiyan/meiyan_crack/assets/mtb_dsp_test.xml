@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mtbusiness>
+
+    <!-- 首页第一格 -->
+    <mtb_base_layout ad_config_id="meiyan_first_icon"
+      page_id="MainActivity"
+      position="100022">
+        <dsp name="com.meitu.business.ads.meitu.Meitu"/>
+    </mtb_base_layout>
+
+    <!-- 首页第二格 -->
+    <mtb_base_layout ad_config_id="meiyan_second_icon"
+      page_id="MainActivity"
+      position="100024">
+        <dsp name="com.meitu.business.ads.meitu.Meitu"/>
+    </mtb_base_layout>
+
+    <!-- 首页第三格 -->
+    <mtb_base_layout ad_config_id="meiyan_third_icon"
+      page_id="MainActivity"
+      position="100026">
+        <dsp name="com.meitu.business.ads.meitu.Meitu"/>
+        <!-- 新增DFP配置，DFP需要分别设置大陆、香港、澳门、台湾地区的unitId -->
+        <dsp name="com.meitu.business.ads.dfp.DFP">
+            <ui_type>ui_type_icon</ui_type>
+            <dfp_tw_unit_id>/196831321/MT_TW/tw_beautycam_android/tw_beautycam_Android_icon_new</dfp_tw_unit_id>
+            <dfp_mo_unit_id>/196831321/MT_MO/mo_beautycam_android/mo_beautycam_Android_icon_new</dfp_mo_unit_id>
+            <dfp_hk_unit_id>/196831321/MT_HK/hk_beautycam_Android/hk_beautycam_Android_icon_new</dfp_hk_unit_id>
+            <!--<dfp_unit_id></dfp_unit_id>-->
+        </dsp>
+    </mtb_base_layout>
+
+    <!-- 首页第三格-新 -->
+    <mtb_base_layout ad_config_id="meiyan_third_icon_new"
+      page_id="MainActivity"
+      position="100042">
+        <dsp name="com.meitu.business.ads.meitu.Meitu"/>
+        <!-- 新增DFP配置，DFP需要分别设置大陆、香港、澳门、台湾地区的unitId -->
+        <dsp name="com.meitu.business.ads.dfp.DFP">
+            <ui_type>ui_type_icon</ui_type>
+            <dfp_tw_unit_id>/196831321/MT_TW/tw_beautycam_android/tw_beautycam_Android_square_icon</dfp_tw_unit_id>
+            <dfp_mo_unit_id>/196831321/MT_MO/mo_beautycam_android/mo_beautycam_Android_square_icon</dfp_mo_unit_id>
+            <dfp_hk_unit_id>/196831321/MT_HK/hk_beautycam_Android/hk_beautycam_Android_square_icon</dfp_hk_unit_id>
+            <!--<dfp_unit_id></dfp_unit_id>-->
+        </dsp>
+    </mtb_base_layout>
+
+    <!-- 首页第四格 -->
+    <mtb_base_layout ad_config_id="meiyan_four_icon"
+      page_id="MainActivity"
+      position="100028">
+        <dsp name="com.meitu.business.ads.meitu.Meitu"/>
+    </mtb_base_layout>
+
+    <!-- 首页第五格 -->
+    <mtb_base_layout ad_config_id="meiyan_five_icon"
+      page_id="MainActivity"
+      position="100030">
+        <dsp name="com.meitu.business.ads.meitu.Meitu"/>
+    </mtb_base_layout>
+
+    <!-- 首页第五格-新 -->
+    <mtb_base_layout ad_config_id="meiyan_five_icon_new"
+      page_id="MainActivity"
+      position="100044">
+        <dsp name="com.meitu.business.ads.meitu.Meitu"/>
+    </mtb_base_layout>
+
+    <!--  首页背景新（7.0）  -->
+    <mtb_base_layout ad_config_id="main_page_bg"
+      page_id="MainActivity"
+      position="100020"
+      wait_load="false">
+        <dsp name="com.meitu.business.ads.meitu.Meitu"/>
+    </mtb_base_layout>
+
+
+
+    <!-- 保存分享页banner -->
+    <mtb_base_layout ad_config_id="save_share_page_banner"
+      page_id="SaveAndShareActivity"
+      animator="fade_in_up"
+      position="214">
+        <dsp name="com.meitu.business.ads.meitu.Meitu">
+        </dsp>
+
+        <dsp name="com.meitu.business.ads.admob.Admob">
+            <admob_unit_id>ca-app-pub-6549036500789204/9111889771</admob_unit_id>
+            <ui_type>ui_type_banner</ui_type>
+        </dsp>
+
+        <dsp name="com.meitu.business.ads.tencent.Tencent">
+            <tencent_pos_id>3000920168895207</tencent_pos_id>
+            <tencent_app_id>100733645</tencent_app_id>
+            <ui_type>ui_type_banner</ui_type>
+        </dsp>
+
+        <dsp name="com.meitu.business.ads.baidu.Baidu">
+            <placement_id>4585914</placement_id>
+            <app_id>e8adab16</app_id>
+            <ui_type>ui_type_banner</ui_type>
+        </dsp>
+
+        <!-- 新增DFP配置，DFP需要分别设置大陆、香港、澳门、台湾地区的unitId -->
+        <dsp name="com.meitu.business.ads.dfp.DFP">
+            <ui_type>ui_type_banner</ui_type>
+            <dfp_tw_unit_id>/196831321/MT_TW/tw_beautycam_android/tw_beautycam_android_saveshare</dfp_tw_unit_id>
+            <dfp_mo_unit_id>/196831321/MT_MO/mo_beautycam_android/mo_beautycam_android_saveshare</dfp_mo_unit_id>
+            <dfp_hk_unit_id>/196831321/MT_HK/hk_beautycam_Android/hk_beautycam_android_saveshare</dfp_hk_unit_id>
+            <!--<dfp_unit_id></dfp_unit_id>-->
+        </dsp>
+
+        <dsp name="com.meitu.business.ads.yeahmobi.Yeahmobi">
+            <placement_id>45088031</placement_id>
+            <app_id>1874</app_id>
+            <ui_type>ui_type_banner</ui_type>
+        </dsp>
+
+        <dsp name="com.meitu.business.ads.baiduhw.BaiduHW">
+            <app_id>c8192599715df6ae62940e5758a115dd</app_id>
+            <baiduhw_pos_id>151873</baiduhw_pos_id>
+            <ui_type>ui_type_banner</ui_type>
+        </dsp>
+    </mtb_base_layout>
+
+    <!--  选择照片页banner  -->
+    <mtb_base_layout ad_config_id="image_select_page_banner"
+      page_id="ImageFragment"
+      position="88">
+        <!-- 每个MtbBaseLayout至少得有一个Meitu dsp，如果没有特殊配置也需要在此占位 -->
+        <dsp name="com.meitu.business.ads.meitu.Meitu"/>
+
+        <dsp name="com.meitu.business.ads.admob.Admob">
+            <admob_unit_id>ca-app-pub-6549036500789204/1449022178</admob_unit_id>
+            <ui_type>ui_type_gallery</ui_type>
+        </dsp>
+
+        <dsp name="com.meitu.business.ads.tencent.Tencent">
+            <tencent_pos_id>6040329128894301</tencent_pos_id>
+            <tencent_app_id>100733645</tencent_app_id>
+            <ui_type>ui_type_gallery</ui_type>
+        </dsp>
+
+        <dsp name="com.meitu.business.ads.baidu.Baidu">
+            <placement_id>4585910</placement_id>
+            <app_id>e8adab16</app_id>
+            <ui_type>ui_type_gallery</ui_type>
+        </dsp>
+
+        <!-- 新增DFP配置，DFP需要分别设置大陆、香港、澳门、台湾地区的unitId -->
+        <dsp name="com.meitu.business.ads.dfp.DFP">
+            <ui_type>ui_type_gallery</ui_type>
+            <dfp_tw_unit_id>/196831321/MT_TW/tw_beautycam_android/tw_beautycam_android_photochoose</dfp_tw_unit_id>
+            <dfp_mo_unit_id>/196831321/MT_MO/mo_beautycam_android/mo_beautycam_android_photochoose</dfp_mo_unit_id>
+            <dfp_hk_unit_id>/196831321/MT_HK/hk_beautycam_Android/hk_beautycam_android_photochoose</dfp_hk_unit_id>
+            <!--<dfp_unit_id></dfp_unit_id>-->
+        </dsp>
+
+        <dsp name="com.meitu.business.ads.yeahmobi.Yeahmobi">
+            <placement_id>25261535</placement_id>
+            <app_id>1874</app_id>
+            <ui_type>ui_type_gallery</ui_type>
+        </dsp>
+
+        <dsp name="com.meitu.business.ads.baiduhw.BaiduHW">
+            <app_id>c8192599715df6ae62940e5758a115dd</app_id>
+            <baiduhw_pos_id>151872</baiduhw_pos_id>
+            <ui_type>ui_type_gallery</ui_type>
+        </dsp>
+    </mtb_base_layout>
+
+    <!--  美颜馆首页  -->
+    <mtb_base_layout ad_config_id="meiyan_material_home_banner"
+      page_id="MaterialCenterHomeActivity"
+      position="100032">
+        <dsp name="com.meitu.business.ads.meitu.Meitu"/>
+    </mtb_base_layout>
+
+    <!--  美颜确认页广告位  -->
+    <mtb_base_layout ad_config_id="meiyan_confirm_icon"
+      page_id="ConfirmPage"
+      animator="none"
+      position="170" >
+        <dsp name="com.meitu.business.ads.meitu.Meitu"/>
+    </mtb_base_layout>
+
+    <!--  高级美颜页照片美化页右下角广告位  -->
+    <mtb_base_layout ad_config_id="meiyan_beauty_main_icon"
+        page_id="BeautyMainActivity"
+        animator="none"
+        position="100059">
+        <dsp name="com.meitu.business.ads.meitu.Meitu"/>
+    </mtb_base_layout>
+</mtbusiness>

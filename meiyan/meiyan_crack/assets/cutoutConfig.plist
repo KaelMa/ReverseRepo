@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>line</string>
+	<key>ID</key>
+	<string>1110</string>
+	<key>type</key>
+	<string>0</string>
+	<key>threshold</key>
+	<string>16</string>
+	<key>outer</key>
+	<string>0</string>
+	<key>lineWidth</key>
+	<string>12</string>
+	<key>smootLevel</key>
+	<string>51</string>
+	<key>threshold2</key>
+	<string>0</string>
+	<key>RValue</key>
+	<string>255</string>
+	<key>GValue</key>
+	<string>212</string>
+	<key>BValue</key>
+	<string>252</string>
+	<key>suCaiName</key>
+	<string></string>
+	<key>suCaiSize</key>
+	<string>0</string>
+	<key>pointOuter</key>
+	<string>0</string>
+	<key>RValue1</key>
+	<string>255</string>
+	<key>GValue1</key>
+	<string>212</string>
+	<key>BValue1</key>
+	<string>252</string>
+</dict>
+</plist>
